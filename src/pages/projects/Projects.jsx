@@ -1,6 +1,6 @@
 import React from 'react';
 import portfolioImage from '../../assets/images/portfolio.png';
-import jobPortalImage from '../../assets/images/portfolio.png';
+import charityImage from '../../assets/images/charity.png';
 import snakeGameImage from '../../assets/images/SnakeGame.jpeg';
 import quizImage from '../../assets/images/quiz.jpeg';
 
@@ -10,17 +10,16 @@ const projects = [
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio website showcasing my skills, projects, and work experience. Built using React and Tailwind CSS for a modern, responsive design.',
-    // imageUrl: '../../assets/images/portfolio.png',
     imageUrl: portfolioImage,
     githubLink: 'https://github.com/Shweta220803/MyPortfolio',
     techStack: ['#React', '#TailwindCSS'],
   },
   {
-    title: 'Job Portal',
-    description: 'A job portal web application using MERN technology, where users can search for jobs, apply for them, and employers can post new job listings.',
-    imageUrl: jobPortalImage,
-    githubLink: 'https://github.com/Shweta220803/jobPortal',
-    techStack: ['#MongoDB', '#ExpressJS', '#React', '#NodeJS'],
+    title: 'Charity-Connection Web Application',
+    description: 'A charity web application that connects donors with organizations supporting healthcare, education, and elderly care, enabling secure donations and verified assistance requests for impactful social support.',
+    imageUrl: charityImage,
+    githubLink: 'https://github.com/Shweta220803/Charity-Web-Application.git',
+    techStack: ['#MongoDB', '#ExpressJS', '#React', '#NodeJS', '#EmailJS'],
   },
   {
     title: 'Snake Game',

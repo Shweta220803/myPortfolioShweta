@@ -3,12 +3,12 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const skills = [
-  { name: "JAVA", level: 90, color: "#38B2AC" },
-  { name: "MERN", level: 90, color: "#F7DF1E" },
-  { name: "JavaScript", level: 90, color: "#38B2AD" },
-  { name: "MYSQL", level: 95, color: "#47A248" },
-  { name: "REACT", level: 90, color: "#F7DF1E" },
-  { name: "Tailwind CSS", level: 80, color: "#38B2AC" },
+  { name: "Communication", level: 90, color: "#38B2AC" },
+  { name: "Time Management", level: 90, color: "#F7DF1E" },
+  { name: "Public Speaking", level: 90, color: "#38B2AD" },
+  { name: "Decision Making", level: 95, color: "#47A248" },
+  { name: "Confidence", level: 90, color: "#F7DF1E" },
+  { name: "Team Building", level: 80, color: "#38B2AC" },
 ];
 
 const Skills = () => {
