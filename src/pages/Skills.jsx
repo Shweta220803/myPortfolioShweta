@@ -13,27 +13,29 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="bg-sky-950 py-4">
-      <h2 className="text-center pt-5 text-4xl md:text-5xl lg:text-6xl font-bold border-b-2 border-red-500 p-5">
+    <div className="bg-gradient-to-r from-blue-400 via-teal-900 to-green-900 py-12">
+      <h2 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8 border-b-4 border-red-500 pb-4">
         My Skills
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 max-w-7xl mx-auto px-4 p-10">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 max-w-7xl mx-auto px-4 md:px-10">
         {skills.map((skill) => (
-          <div key={skill.name} className="flex flex-col items-center">
-            <div className="w-20 h-20 sm:w-24 sm:h-24 mb-4">
+          <div
+            key={skill.name}
+            className="flex flex-col items-center transform transition-transform duration-300 hover:scale-105"
+          >
+            <div className="w-24 h-24 sm:w-28 sm:h-28 mb-4">
               <CircularProgressbar
                 value={skill.level}
                 text={`${skill.level}%`}
                 styles={buildStyles({
-                  textColor: "gray",
+                  textColor: "#fff",
                   pathColor: skill.color,
                   trailColor: "#d6d6d6",
+                  strokeWidth: 8,
                 })}
               />
             </div>
-            <h3 className="text-lg sm:text-xl font-semibold text-center">
-              {skill.name}
-            </h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-white mt-3">{skill.name}</h3>
           </div>
         ))}
       </div>
