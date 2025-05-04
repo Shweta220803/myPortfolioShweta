@@ -1,13 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules"; // Import the Autoplay module
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import lmsImg from "../assets/lms.png";
 import groceryImg from "../assets/grocery.png";
-
 import blogImg from "../assets/blog.png";
 import voiceImg from "../assets/virtualAss.png";
 import snakeImg from "../assets/SnakeGame.jpeg";
@@ -20,7 +19,7 @@ const Projects = () => {
       title: "Grocery Shop Web Appplication",
       main: "A full-stack GroceryShop platform developed using the MERN stack.",
       image: groceryImg,
-      demoLink: " https://github.com/Shweta220803/Green-Cart.git",
+      demoLink: "https://github.com/Shweta220803/Green-Cart.git",
       sourceCodeLink: "https://github.com/Shweta220803/Green-Cart.git",
     },
     {
@@ -79,11 +78,12 @@ const Projects = () => {
       </h1>
 
       <Swiper
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]} // Include the Autoplay module
         spaceBetween={30}
         slidesPerView={1}
         pagination={{ clickable: true }}
         navigation
+        autoplay={{ delay: 3000, disableOnInteraction: false }} // Enable autoplay with a delay of 3 seconds
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },

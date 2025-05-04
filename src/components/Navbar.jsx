@@ -12,7 +12,6 @@ const Navbar = () => {
     { id: "home-section", label: "Home" },
     { id: "about-section", label: "About" },
     { id: "projects-section", label: "Projects" },
-    { id: "technology-stacks-section", label: "Technology" },
     { id: "experience-section", label: "Experience" },
     { id: "skills-section", label: "Skills" },
   ];
