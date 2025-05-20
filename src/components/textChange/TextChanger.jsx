@@ -6,7 +6,7 @@ const TextChanger = () => {
     "Welcome to my portfolio!",
     "Let's build something amazing together.",
   ];
-  
+
   const [currentText, setCurrentText] = useState("");
   const [endValue, setEndValue] = useState(0);
   const [isForward, setIsForward] = useState(true);

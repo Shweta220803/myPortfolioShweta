@@ -7,7 +7,7 @@ const WorkExperience = () => {
     // <div id="WorkExperience" className=" md:p-24">
     <div
       id="work-experience"
-      className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-gradient-to-tr from-sky-900 via-sky-950 to-sky-900 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12 my-4"
+      className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-gradient-to-tr from-sky-900 via-sky-950 to-sky-800 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12 my-4 "
     >
       <h2 className="text-center text-4xl md:text-5xl font-extrabold  mb-5">
         <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-lg">

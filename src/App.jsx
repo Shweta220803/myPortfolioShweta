@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import LatestWork from "./pages/LatestWork";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import SkillsAndTech from "./pages/SkillsAndTech";
 import Contact from "./pages/Contact";
+import Skills from "./components/Skills";
+import Education from "./components/Education";
 
 const App = () => {
   return (
@@ -23,14 +23,15 @@ const App = () => {
         <div id="about-section">
           <About />
         </div>
+        <div id="skills-section">
+          <Skills />
+        </div>
+
         <div id="projects-section">
           <Projects />
         </div>
-        <div id="skills-section">
-          <SkillsAndTech />
-        </div>
-        <div id="latest-work-section">
-          <LatestWork />
+        <div id="education-section">
+          <Education />
         </div>
 
         <div id="experience-section">

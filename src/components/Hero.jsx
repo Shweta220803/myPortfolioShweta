@@ -44,6 +44,9 @@ const Hero = () => {
             experiences. Focused on delivering high-quality solutions with a
             keen eye for detail.
           </p>
+          <h3 className="text-2xl font-bold">
+            I am a <span className="text-purple-500">MERN Stack Developer</span>
+          </h3>
 
           <div className="mt-6 space-x-4">
             <button
