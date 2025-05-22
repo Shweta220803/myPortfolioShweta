@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import lmsImg from "../assets/lms.png";
 import groceryImg from "../assets/grocery.png";
 import blogImg from "../assets/blog.png";
@@ -87,22 +88,22 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-center gap-4 mt-4 mb-5">
-                <a
-                  href={project.demoLink}
+                <Link
+                  to={project.demoLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#465697] px-4 py-2 text-sm rounded-3xl font-semibold hover:scale-105 duration-300"
                 >
                   Demo
-                </a>
-                <a
-                  href={project.sourceCodeLink}
+                </Link>
+                <Link
+                  to={project.sourceCodeLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#465697] px-4 py-2 text-sm rounded-3xl font-semibold hover:scale-105 duration-300"
                 >
                   Source
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -113,7 +114,7 @@ const Projects = () => {
       </div>
 
       {/* Bottom 2 Projects */}
-      <div className="flex fled-wrap justify-center gap-16 relative">
+      <div className="flex flex-wrap justify-center gap-16 relative">
         {bottomProjects.map((project, index) => (
           <div
             key={index}
@@ -140,22 +141,22 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-center gap-4 mt-4 mb-3">
-                <a
-                  href={project.demoLink}
+                <Link
+                  to={project.demoLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#465697] px-4 py-2 text-sm rounded-3xl font-semibold hover:scale-105 duration-300"
                 >
                   Demo
-                </a>
-                <a
-                  href={project.sourceCodeLink}
+                </Link>
+                <Link
+                  to={project.sourceCodeLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#465697] px-4 py-2 text-sm rounded-3xl font-semibold hover:scale-105 duration-300"
                 >
                   Source
-                </a>
+                </Link>
               </div>
             </div>
           </div>

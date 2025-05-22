@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-sky-950 py-4 fixed w-full z-50 shadow-md">
-      <div className="flex items-center justify-between max-w-screen-xl mx-auto px-4">
+      <div className="flex items-center justify-between max-w-screen-lg mx-auto px-4">
         {/* Logo */}
         <div className="text-3xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse tracking-wide">
           My<span className="ml-1">Portfolio</span>

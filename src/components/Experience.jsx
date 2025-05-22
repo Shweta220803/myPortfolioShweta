@@ -4,7 +4,6 @@ import { SiMongodb, SiSpring } from "react-icons/si";
 
 const WorkExperience = () => {
   return (
-    // <div id="WorkExperience" className=" md:p-24">
     <div
       id="work-experience"
       className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-gradient-to-tr from-sky-900 via-sky-950 to-sky-800 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12 my-4 "

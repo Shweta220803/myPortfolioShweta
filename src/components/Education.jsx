@@ -55,7 +55,7 @@ const Education = () => {
       duration: "May 2018",
       grade: "70%",
       description:
-        "My class 10th education focused on science with computer applications, building my early interest in technology and problem solving.",
+        "My class 10th education focused on science with computer fundamentals, building my early interest in technology and problem solving.",
       logo: cbseLogo,
     },
   ];

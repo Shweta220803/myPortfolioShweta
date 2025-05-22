@@ -21,8 +21,6 @@ const Hero = () => {
 
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about-section");
-    console.log("About Section:", aboutSection); // Debugging
-
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -39,10 +37,11 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-extrabold mt-16 text-white">
             <TextChanger />
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-[690px] mt-4">
-            Passionate about building scalable applications and improving user
-            experiences. Focused on delivering high-quality solutions with a
-            keen eye for detail.
+          <p className="text-lg md:text-2xl text-gray-600 max-w-[690px] mt-4">
+            Dedicated to developing scalable, high-performance applications with
+            a strong focus on user experience and clean, maintainable code.
+            Committed to delivering robust, efficient, and impactful solutions
+            through a detail-oriented and results-driven approach.{" "}
           </p>
           <h3 className="text-2xl font-bold">
             I am a <span className="text-purple-500">MERN Stack Developer</span>
@@ -50,7 +49,7 @@ const Hero = () => {
 
           <div className="mt-6 space-x-4">
             <button
-              onClick={scrollToContact} // Change made here
+              onClick={scrollToContact}
               className="rounded-lg border border-white bg-pink-900 px-6 py-3 text-emerald-50 text-lg font-semibold flex items-center justify-center cursor-pointer hover:bg-blue-500 hover:text-white  hover:translate-5 transition duration-300"
             >
               Contact Me!
